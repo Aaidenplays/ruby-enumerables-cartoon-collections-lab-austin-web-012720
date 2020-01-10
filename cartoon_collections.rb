@@ -7,11 +7,16 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer)
+<<<<<<< HEAD
   planeteer.map! do |n|  
     n.concat("!")
     n.capitalize()
   end
   planeteer
+=======
+  planeteer.map!
+   binding.pry
+>>>>>>> eb6bd7598e0d98e5ba19558f8668cf244fbd6893
 end
 
 def long_planeteer_calls(calls)
